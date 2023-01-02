@@ -1,0 +1,13 @@
+{
+    "total_area_cnt" : 8,
+    "area_infos" : [
+        { "use" : true, "coord" : [0, 0, 100, 100] }, 
+        { "use" : false, "coord" : [0, 0, 100, 100] }, 
+        { "use" : false, "coord" : [0, 0, 100, 100] }, 
+        { "use" : false, "coord" : [0, 0, 100, 100] }, 
+        { "use" : false, "coord" : [0, 0, 100, 100] }, 
+        { "use" : false, "coord" : [0, 0, 100, 100] }, 
+        { "use" : false, "coord" : [0, 0, 100, 100] }, 
+        { "use" : false, "coord" : [0, 0, 100, 100] }
+    ]
+}

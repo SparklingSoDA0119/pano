@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Srcs">
+      <UniqueIdentifier>{83b7eed4-2090-46c9-b306-73b054ced585}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Srcs\Const.h">
+      <Filter>Srcs</Filter>
+    </ClInclude>
+    <ClInclude Include="Srcs\PanoPlateDetectorSetup.h">
+      <Filter>Srcs</Filter>
+    </ClInclude>
+    <ClInclude Include="Srcs\PanoCvUtil.h">
+      <Filter>Srcs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Srcs\Main.cpp">
+      <Filter>Srcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Srcs\PanoPlateDetectorSetup.cpp">
+      <Filter>Srcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Srcs\PanoCvUtil.cpp">
+      <Filter>Srcs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
