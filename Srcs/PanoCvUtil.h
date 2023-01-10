@@ -17,6 +17,8 @@ namespace pano
 		cv::Mat getBinaryImage(const cv::Mat& src);
 		cv::Mat getDenoiseImage(const cv::Mat& src, int32_t strength);
 
+		cv::Mat getMoveAndRotateImage(const cv::Mat& src, double angle);
+
 		//cv::Mat drawRois(const cv::Mat& src, const std::vector<ROI_INFO_S>& vRoiInfos, const cv::Scalar& color);
 		cv::Mat drawRect(const cv::Mat& src, const std::vector<cv::Rect>& vRects, const cv::Scalar& color);
 

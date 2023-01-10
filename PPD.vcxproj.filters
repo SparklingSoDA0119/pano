@@ -15,6 +15,9 @@
     <ClInclude Include="Srcs\PanoCvUtil.h">
       <Filter>Srcs</Filter>
     </ClInclude>
+    <ClInclude Include="Srcs\PanoPlateDetector.h">
+      <Filter>Srcs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Srcs\Main.cpp">
@@ -24,6 +27,9 @@
       <Filter>Srcs</Filter>
     </ClCompile>
     <ClCompile Include="Srcs\PanoCvUtil.cpp">
+      <Filter>Srcs</Filter>
+    </ClCompile>
+    <ClCompile Include="Srcs\PanoPlateDetector.cpp">
       <Filter>Srcs</Filter>
     </ClCompile>
   </ItemGroup>

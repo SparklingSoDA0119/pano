@@ -46,6 +46,10 @@ namespace pano
 	public :
 		void setUse(bool use) { _use = use; }
 		void setCoord(const AREA_COORD_S& stCoord) { _stCoord = stCoord; }
+
+	public :
+		bool isUse() const { return _use; }
+		const AREA_COORD_S& coord() const { return _stCoord; }
 		
 	public :
 		PdAreaInfo& operator=(const PdAreaInfo& info);
@@ -68,6 +72,7 @@ namespace pano
 
 	public :
 		RET_E readFile(const std::string& file);
+		const std::vector<PdAreaInfo>& areaInfos() const { return _vAreaInfos; }
 
 	private :
 		RET_E getMemberValues();

@@ -86,6 +86,13 @@ namespace pano
 			return img;
 		}
 
+		cv::Mat getMoveAndRotateImage(const cv::Mat& src, double angle)
+		{
+			cv::Mat img;
+
+			return img;
+		}
+
 #if 0
 		cv::Mat drawRois(const cv::Mat& src, const std::vector<ROI_INFO_S>& vRoiInfos, const cv::Scalar& color)
 		{
